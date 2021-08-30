@@ -1,9 +1,13 @@
 """The App."""
+import joblib
+import pandas as pd
 import streamlit as st
-from resc.resc import add  # pylint: disable=import-error
+from resc.resc import make_sankey  # pylint: disable=import-error
 
-A = 1
-B = 1
+df = pd.read_csv("data/plot_data.csv")
+labels = joblib.load("data/labels.joblib")
 
-st.title("My first app")
-st.write(f"{A} + {B} = {add(A, B)}")
+sankey_fig = make_sankey(df, labels)
+
+st.title("What CMS Competitor Intel")
+st.plotly_chart(sankey_fig)

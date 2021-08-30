@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode/settings.json
+
+data/WhatCMS-Q3-2021-Source Data.csv
