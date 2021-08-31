@@ -14,7 +14,6 @@ black
 chardet
 pipenv-setup
 pipenv-to-requirements
-plotly
 pre-commit
 pylint
 pytest

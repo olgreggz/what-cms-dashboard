@@ -11,13 +11,13 @@ pytest = "*"
 pipenv-to-requirements = "*"
 pytest-cov = "*"
 pipenv-setup = "*"
-plotly = "*"
 chardet = "*"
 
 [packages]
 streamlit = "*"
 resc = {editable = true, path = "."}
 joblib = "*"
+plotly = "*"
 
 [requires]
 python_version = "3.7"
