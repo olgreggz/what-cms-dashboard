@@ -22,7 +22,7 @@ def make_sankey(df, labels, mode):
                 ),
                 link=dict(
                     source=df[
-                        "cms_2021_idx"
+                        "cms_2020_idx"
                     ],  # indices correspond to labels, eg A1, A2, A1, B1, ...
                     target=list(df["cms_now_idx"]),
                     value=list(df[mode]),

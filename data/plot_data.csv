@@ -1,17 +1,17 @@
-cms_2021,cms_now,revenue,count,cms_2021_idx,cms_now_idx
-Blackboard 2021,Finalsite Now,111136.0,8,10,6
-Campus Suite 2021,Finalsite Now,27900.0,2,11,6
-Catapult CMS 2021,Finalsite Now,14000.0,1,13,6
-Edlio 2021,Finalsite Now,96670.0,4,0,6
-Educational Networks 2021,Finalsite Now,19650.0,2,12,6
-Finalsite 2021,Blackboard Now,6000.0,2,1,8
-Finalsite 2021,Campus Suite Now,7500.0,1,1,14
-Finalsite 2021,General CMS Now,46824.0,4,1,9
-Finalsite 2021,School Blocks Now,10500.0,1,1,16
-Finalsite 2021,SchoolMessenger Now,20260.0,1,1,7
-General CMS 2021,Finalsite Now,279450.0,17,2,6
-SCHOOLinSITES 2021,Finalsite Now,8500.0,1,3,6
-School Blocks 2021,Finalsite Now,5800.0,1,4,6
-SchoolMessenger 2021,Finalsite Now,130542.4,9,5,6
-SchoolPointe 2021,Finalsite Now,27300.0,2,15,6
-Web Builder 2021,Finalsite Now,56970.0,6,17,6
+cms_2021,cms_now,revenue,count,cms_2020,cms_2020_idx,cms_now_idx
+Blackboard,Finalsite Current,111136.0,8,Blackboard 2020,10,16
+Campus Suite,Finalsite Current,27900.0,2,Campus Suite 2020,13,16
+Catapult CMS,Finalsite Current,14000.0,1,Catapult CMS 2020,15,16
+Edlio,Finalsite Current,96670.0,4,Edlio 2020,7,16
+Educational Networks,Finalsite Current,19650.0,2,Educational Networks 2020,17,16
+Finalsite,Blackboard Current,6000.0,2,Finalsite 2020,1,4
+Finalsite,Campus Suite Current,7500.0,1,Finalsite 2020,1,8
+Finalsite,General CMS Current,46824.0,4,Finalsite 2020,1,5
+Finalsite,School Blocks Current,10500.0,1,Finalsite 2020,1,2
+Finalsite,SchoolMessenger Current,20260.0,1,Finalsite 2020,1,12
+General CMS,Finalsite Current,279450.0,17,General CMS 2020,11,16
+SCHOOLinSITES,Finalsite Current,8500.0,1,SCHOOLinSITES 2020,9,16
+School Blocks,Finalsite Current,5800.0,1,School Blocks 2020,3,16
+SchoolMessenger,Finalsite Current,130542.4,9,SchoolMessenger 2020,6,16
+SchoolPointe,Finalsite Current,27300.0,2,SchoolPointe 2020,0,16
+Web Builder,Finalsite Current,56970.0,6,Web Builder 2020,14,16
