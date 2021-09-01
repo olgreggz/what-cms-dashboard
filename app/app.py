@@ -7,7 +7,9 @@ from resc.resc import make_sankey  # pylint: disable=import-error
 df = pd.read_csv("data/plot_data.csv")
 labels = joblib.load("data/labels.joblib")
 
-sankey_fig = make_sankey(df, labels)
+count_sankey_fig = make_sankey(df, labels, mode="count")
+revenue_sankey_fig = make_sankey(df, labels, mode="revenue")
 
-st.title("What CMS Competitor Intel")
-st.plotly_chart(sankey_fig)
+st.title("CMS Competitor Intel")
+st.plotly_chart(count_sankey_fig)
+st.plotly_chart(revenue_sankey_fig)

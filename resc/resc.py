@@ -3,7 +3,14 @@
 import plotly.graph_objects as go
 
 
-def make_sankey(df, labels):
+def make_sankey(df, labels, mode):
+    if mode == "count":
+        title = "CMS Competitor Intel by Count"
+    elif mode == "revenue":
+        title = "CMS Competitor Intel by Revenue"
+    else:
+        raise ValueError("mode must be one of count, revenue")
+
     fig = go.Figure(
         data=[
             go.Sankey(
@@ -18,11 +25,11 @@ def make_sankey(df, labels):
                         "cms_2021_idx"
                     ],  # indices correspond to labels, eg A1, A2, A1, B1, ...
                     target=list(df["cms_now_idx"]),
-                    value=list(df["count"]),
+                    value=list(df[mode]),
                 ),
             )
         ]
     )
 
-    fig.update_layout(title_text="Basic Sankey Diagram", font_size=10)
+    fig.update_layout(title_text=title, font_size=10)
     return fig
