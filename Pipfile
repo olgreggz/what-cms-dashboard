@@ -12,6 +12,7 @@ pipenv-to-requirements = "*"
 pytest-cov = "*"
 pipenv-setup = "*"
 chardet = "*"
+watchdog = "*"
 
 [packages]
 streamlit = "*"
